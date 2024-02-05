@@ -1,15 +1,16 @@
 def Unique_elements(cat):
   cat2=[]
-  for i in range (0, len(cat)+1):
-    for j in range (i+1, len(cat)+1):
-      if cat[i]==cat[j]:
-        cat2.append(cat[i])
-        cat.remove(cat[j])
+  for i in cat:
+    if i not in cat2:
+      cat2.append(i)
+
        
   print (cat2)
 
 print("Enter list:")
-cat=list(input())
+a=input()
+cat=a.split()
+
 Unique_elements(cat)
 
 
