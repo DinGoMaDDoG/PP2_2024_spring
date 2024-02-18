@@ -1,0 +1,5 @@
+print("Length of base:")
+n=float(input())
+print("Height of parallelogram:")
+a=float(input())
+print(f"Expected Output:{a*n}")
