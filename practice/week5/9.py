@@ -10,3 +10,7 @@ def test(txt, pattern):
 txt=input()
 pattern = r'(?P<X>[a-zA-Z])(?P<Y>[A-Z])'
 test(txt,pattern)
+
+
+
+
